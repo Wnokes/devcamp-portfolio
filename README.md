@@ -17,5 +17,6 @@ def my_great_function
 end
 
 ```javascript
-aleart('hi there')
+alert('hi there')
+```
 * ...
