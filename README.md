@@ -15,6 +15,7 @@
 def my_great_function
 	puts "here it is"
 end
+```
 
 ```javascript
 alert('hi there')
