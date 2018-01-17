@@ -27,5 +27,6 @@ module DevcampPortfolio
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+    #this will break sometime around week 5
   end
 end
