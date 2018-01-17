@@ -1,25 +1,21 @@
-#Im making a change? change chagne chage
-# README
+#Devcamp Portfolio Application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+>This is a Ruby on Tails % application that allows user to create their own portfolios.
 
-Things you may want to cover:
+### Features
 
-* Ruby version
+- Read time chat enginefor comments
+- Blog
+- Portfolio
+-Drag and drop interface
 
-* System dependencies
+### Code Example
 
-* Configuration
+```ruby
+def my_great_function
+	puts "here it is"
+end
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
+```javascript
+aleart('hi there')
 * ...
