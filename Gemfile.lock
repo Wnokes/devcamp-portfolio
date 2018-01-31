@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/Wnokes/verbal_pants_cool_view_tool
+  revision: c2e89719bc15faff08e070698c25338a82d9e756
+  specs:
+    verbal_pants_cool_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -200,6 +206,7 @@ DEPENDENCIES
   turbolinks (~> 5)
   tzinfo-data
   uglifier (>= 1.3.0)
+  verbal_pants_cool_view_tool!
   web-console (>= 3.3.0)
 
 BUNDLED WITH
