@@ -19,4 +19,8 @@ module ApplicationHelper
   	 	content_tag(:p,greeting, class: "source-greeting")
     end 
   end 
+
+  def copyright_generator
+    VerbalPantsCoolViewTool::Renderer.copyright 'Weston Nokes', 'All rights reserved'
+  end
 end
