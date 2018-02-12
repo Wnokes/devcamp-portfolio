@@ -17,7 +17,7 @@ module ApplicationHelper
   end
 
   def copyright_generator
-    VerbalPantsCoolViewTool::Renderer.copyright 'Jordan Hudgens', 'All rights reserved'
+    VerbalPantsCoolViewTool::Renderer.copyright 'Weston Nokes', 'All rights reserved'
   end
 
   def nav_items
