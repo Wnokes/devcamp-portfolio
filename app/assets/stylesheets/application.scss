@@ -206,19 +206,43 @@ body {
 
 .app-footer {
   color: white;
-
 }
 
-.tech_news {
+.tech-news {
   color: black;
   margin: 20px;
-
 }
 
-.tech_news a {
+.tech-news > .card {
+  padding: 30px;
+}
+
+.tech-news a {
   color: green;
 }
-.tech_news > .card {
-  padding: 30px;
 
+.app-card-container {
+  color: black;
+  text-align: left;
+}
+
+.app-card-container > .card {
+  padding: 40px;
+}
+
+.profile-img {
+  border: 1px solid grey;
+}
+
+.app-card-container a {
+  color: blue;
+}
+
+.card-block {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.skill {
+  margin: 10px;
 }

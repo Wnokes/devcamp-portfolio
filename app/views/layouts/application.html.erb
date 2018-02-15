@@ -19,24 +19,22 @@
         <div class="cover-container">
 
           <%= video_tag(
-              'reindeer.mp4',
+              'better_food.mp4',
               id: 'background',
               autoplay: true,
-              loop:true,
+              loop: true,
               muted: true,
               poster: 'home_bg.png'
             )
-          %>
+            %>
 
           <%= render "shared/application_nav" %>
 
           <%= yield %>
 
           <%= render "shared/application_footer" %>
-          
-          <%= alerts %>
 
-          <%= source_helper("application") %>
+          <%= alerts %>
 
         </div>
       </div>
