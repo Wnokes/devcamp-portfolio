@@ -22,6 +22,6 @@ module DevcampPortfolio
     config.generators.system_tests = nil
     #this will break sometime around week 5
     config.eager_load_paths << "#{Rails.root}/lib"
-
+    config.secret_key_base = ENV["SECRET_KEY_BASE"]
   end
 end
