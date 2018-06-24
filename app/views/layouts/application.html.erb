@@ -23,22 +23,24 @@
         <div class="cover-container">
 
           <%= video_tag(
-              'better_food.mp4',
+              'Hello-World.mp4',
               id: 'background',
               autoplay: true,
               loop: true,
               muted: true,
-              poster: 'home_bg.png'
+              poster: 'Hello-World.jpg'
             )
             %>
 
-          <%= render "shared/application_nav" %>
+          <div class="row">
+            <%= render "shared/application_nav" %>
+          </div>
+          <div>
+            <%= yield %>
+          </div>
+            <%= render "shared/application_footer" %>
 
-          <%= yield %>
-
-          <%= render "shared/application_footer" %>
-
-          <%= alerts %>
+            <%= alerts %>
 
         </div>
       </div>

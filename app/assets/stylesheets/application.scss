@@ -1,6 +1,8 @@
 @import "bootstrap";
 @import "gritter";
 
+
+
 /*
  * Globals
  */
@@ -203,7 +205,7 @@ body {
   z-index: -100;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: image-url('home_bg.png') no-repeat;
+  background: image-url('Hello-World.jpg') no-repeat;
   background-size: cover;
 }
 
@@ -248,4 +250,16 @@ body {
 
 .skill {
   margin: 10px;
+}
+
+.no-new-line {
+  display: inline;
+}
+
+.top-margin {
+  margin-top: 100px;
+}
+
+.card {
+  background-color: #cacdd1;
 }

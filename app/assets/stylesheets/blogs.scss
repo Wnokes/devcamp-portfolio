@@ -14,6 +14,7 @@
 
 body {
 font-family: 'Roboto Mono', monospace;  color: #555;
+background-color: #cacdd1; 
 }
 
 h1, .h1,
@@ -85,7 +86,6 @@ font-family: 'Roboto Mono', monospace;  font-weight: normal;
 
 .blog-header {
   padding-bottom: 1.25rem;
-  margin-bottom: 2rem;
   border-bottom: .05rem solid #eee;
 }
 .blog-title {
@@ -195,9 +195,21 @@ font-family: 'Roboto Mono', monospace;  font-weight: normal;
 }
 
 .blog-nav {
-  margin-bottom: 30px;
+  
+  background-color: #aaaaaa;
+
 }
 
 .blog-sidebar-source {
-  margin-top: 20px;
+ 
+}
+.blog-header {
+  background-color: #aaaaaa;
+}
+.blog-description {
+  color: #cc9108;
+}
+.blog-sidebar {
+  background-color: #353533; 
+  padding-top: 15px;
 }
